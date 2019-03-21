@@ -1,0 +1,146 @@
+
+body {
+    
+}
+
+header {
+    background: grey;
+    width; 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-items {
+  list-style-type: none;  
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+#header-right {
+display: flex;
+justify-content: space-evenly;
+height: 25vh;
+width: 20vw;
+position: absolute;
+right: 25px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+top: 4%;
+
+
+
+}
+#name {
+    width: 10vw;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 45px;
+    position: absolute;
+    left: 9%;
+    top: 2%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#blackbox {
+width: 100vw;
+height:45vh;
+background-color: black;
+display: flex;
+justify-content: center;
+position: absolute;
+margin: 0;
+top: 10%;
+}
+
+ #themore{
+color: rgb(255, 238, 0);
+display: flex;
+position: absolute;
+left: 28%;
+top: 30%;
+font-size: 60px;
+font-stretch: expanded;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+
+ #squares {
+height:390px;
+width: 370px;
+background-color: rgb(179, 249, 213);
+position: absolute;
+right: 5%;
+top: 63%;
+border-radius: 15%;
+
+ }
+
+ #square1 {
+    height:390px;
+    width: 370px;
+    background-color: rgb(179, 249, 213);
+    position: absolute;
+    right: 37%;
+    top: 63%;
+    border-radius: 15%;
+
+ }
+
+ #square2 {
+    height:390px;
+    width: 370px;
+    background-color: rgb(179, 249, 213);
+    position: absolute;
+    left: 7%;
+    top: 63%;
+    border-radius: 15%;
+}
+#rect1 {
+height: 260px;
+width: 590px;
+position: absolute;
+left: 8%;
+top: 120%;
+background-color: rgb(250, 174, 32);
+
+}
+#rect2 {
+    height: 260px;
+    width: 590px;
+    position: absolute;
+    left: 53%;
+    top: 120%;
+    background-color: rgb(250, 174, 32);
+    
+
+}
+
+#pic {
+    position: absolute;
+    top: 160%;
+    right: 17%;
+    height: 200px;
+    width: 300px;
+}
+
+#foot {
+width: 100vw;
+height: 10vh;
+background-color: rgb(62, 52, 98);
+position: absolute;
+top: 200%; 
+    
+}
+#words {
+width: 500px;
+height: 13vh;
+position: absolute;
+right: 53%;
+top: 162%;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 100;
+}
